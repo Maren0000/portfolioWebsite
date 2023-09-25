@@ -1,0 +1,46 @@
+h2{
+    color: darkgreen;
+}
+
+h1 {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: purple;
+}
+
+section, footer {
+    padding: 32px;
+    margin: 0 auto;
+    width: 700px;
+    background-color: white;
+}
+
+.profile {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.profile > img {
+    width: 150px;
+    border-radius: 100px;
+    border: solid green 10px;
+}
+
+.social-media-link > img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.about {
+    text-align: center;
+}
+
+.about > h2 {
+    padding-top: 30px;
+}
+.about > a {
+    padding-bottom: 30px;
+}
